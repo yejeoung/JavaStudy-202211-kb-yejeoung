@@ -32,6 +32,9 @@ public class AnimalMain {
                 Human h = (Human) animals[i]; //다운캐스팅 (명시적 형 변환을 꼭 해주어야 가능)
                 h.readBooks(); //다운캐스팅을 했기 때문에 Human 객체 안에 있는 것을 호출 할 수 있다.
                 //안에 Tiger 객체도 포함이 되어있기 때문에 오류가 발생하게 된다.
+            } else if(animals[i] instanceof Tiger) {
+                Tiger t = (Tiger) animals[i];
+                t.hunting();
             } else  {
                 System.out.println("다운캐스팅 불가");
             }

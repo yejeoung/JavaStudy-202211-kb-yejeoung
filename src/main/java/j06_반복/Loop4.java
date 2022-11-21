@@ -11,7 +11,7 @@ public class Loop4 {
         boolean loopFlag1 = true;
         boolean loopFlag2 = true;
 
-        while (loopFlag1) { //while문 안에 break는 한 번만 걸 수 있다.
+        while (loopFlag1) {
 
             System.out.println("[폴더 선택]");
             System.out.println("1. 문서");
@@ -36,7 +36,7 @@ public class Loop4 {
 
                     if (select.equals("1")) {
 
-                    } else if (select.equals("2")) { //equals = 객체끼리 내용 비교
+                    } else if (select.equals("2")) {
 
                     } else if (select.equals("3")) {
 
@@ -48,7 +48,6 @@ public class Loop4 {
                         if (select.equals("y")) {
                             loopFlag1 = false;
                             loopFlag2 = false;
-                            //두 개의 while문을 전부 flase를 선언해주면 break 기능을 하게된다.
                         }
                     } else {
                         System.out.println("다시 입력하세요.");
@@ -61,7 +60,7 @@ public class Loop4 {
             } else if (select.equals("4")) {
 
             } else if (select.equals("q")) {
-                System.out.print("정말 프로그램을 종료하시겠습니까?(y/n))");
+                System.out.println("정말 프로그램을 종료하시겠습니까?(y/n))");
                 select = scanner.nextLine();
                 if (select.equals("y")) {
                     break;
