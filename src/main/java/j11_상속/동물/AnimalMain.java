@@ -20,7 +20,7 @@ public class AnimalMain {
         animals[1] = new Tiger();
         animals[2] = new Animal();
 
-        //오바라이드를 한 후에 업캐스팅을 하게 되면 재정의된 것들을 사용하게 된다.
+        //오버라이드를 한 후에 업캐스팅을 하게 되면 재정의된 것들을 사용하게 된다.
         for(int i = 0; i < animals.length; i++) {
             animals[i].move();
         }

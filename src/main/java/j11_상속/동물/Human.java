@@ -17,4 +17,5 @@ public class Human extends Animal{
     public void readBooks() {
         System.out.println("사람이 책을 읽습니다.");
     }
+
 }

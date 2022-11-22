@@ -26,7 +26,7 @@ public class Array2 {
         names[3] = "문승주";
         names[4] = "장건녕";
 
-        for(int i=0; i < names.length; i++) { //.length : 배열의 개수만큼 반복한다.
+        for (int i = 0; i < names.length; i++) { //.length : 배열의 개수만큼 반복한다.
             System.out.println("이름" + (i + 1) + ": " + names[i]);
         }
 

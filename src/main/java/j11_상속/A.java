@@ -8,3 +8,4 @@ public class A {
         return a;
     }
 }
+
