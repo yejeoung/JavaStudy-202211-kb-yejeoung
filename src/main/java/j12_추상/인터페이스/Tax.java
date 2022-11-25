@@ -11,7 +11,7 @@ public class Tax implements Calculator{ //인터페이스의 상속은 extends�
         1. public과 class 사이에 abstract를 입력해준다.
         2. 추상 메소드를 사용 할 수 있도록 오버라이딩을 해준다.
      */
-    //생성자 선언이 불가능하다. 애초에 필요가 없기 때문이기도 하고 일반 변수가 존재하지 않기 때문 
+    //생성자 선언이 불가능하다. 애초에 필요가 없기 때문이기도 하고 일반 변수가 존재하지 않기 때문
 
     @Override
     public int calc(int[] values) {

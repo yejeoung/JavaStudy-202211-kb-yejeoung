@@ -20,11 +20,13 @@ public class CalcMain {
         }
 
         calculator = new Salary(); //업캐스팅 /인터페이스 Calculator에 Salary를 입력
+        //변수 선언은 한 번만 가능하다
+        //위의 선언에 대입을 한 것이기 때문에 값만 넣는다.
         result2 = calculator.calc(salaryPay);
         if (result2 == 0) {
             System.out.println("오류: " + calculator.ERROR_CODE);
         } else {
-            System.out.println("result2=> " + result2);
+            System.out.println("result2 => " + result2);
         }
     }
 }
