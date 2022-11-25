@@ -14,7 +14,7 @@ public class AnimalMain {
             System.out.println("1. 사람");
             System.out.println("2. 호랑이");
             System.out.println("q. 종료");
-            System.out.println("동물을 선택하세요 >>>");
+            System.out.print("동물을 선택하세요 >>> ");
 
             select = scanner.nextLine();
 
