@@ -16,7 +16,7 @@ public class AnimalMain {
         Animal tAnimal = tiger;
         Animal[] animals = new Animal[3];
 
-        animals[0] = new Human(); //hunam, hAnimal 다 가능
+        animals[0] = new Human(); //human, hAnimal 다 가능
         animals[1] = new Tiger();
         animals[2] = new Animal();
 

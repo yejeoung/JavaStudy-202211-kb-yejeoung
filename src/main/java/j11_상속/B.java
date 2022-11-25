@@ -11,6 +11,7 @@ public class B extends A {
     private String b;
 
     public B() {
-        b = a; //A클래스가 private이 되어있으면 get을 사용해서 가지고 와야한다.
+
+        b = getA(); //A클래스가 private이 되어있으면 get을 사용해서 가지고 와야한다.
     }
 }
