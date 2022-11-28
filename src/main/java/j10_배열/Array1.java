@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package j10_배열;
 
 public class Array1 {
@@ -26,5 +25,3 @@ public class Array1 {
 
     }
 }
-=======
->>>>>>> origin/main

@@ -2,20 +2,14 @@ package j10_배열;
 
 public class Array4 {
 
-<<<<<<< HEAD
     public static int[] add(int[] array, int value) { //add를 사용할때는 매개변수가 무조건 두 개가 필요하므로 int value를 넣은 것이다.
         int[] resultArray = new int[array.length + 1];
 
         for (int i = 0; i < array.length; i++) { //기존의 배열과 동일하게 옮긴 뒤 마지막 인덱스에 마지막의 배열의 크기가 들어간다.
-=======
-    public static int[] add(int[] array, int value) {
-        int[] resultArray = new int[array.length + 1];
-
-        for (int i = 0; i < array.length; i++) {
->>>>>>> origin/main
             resultArray[i] = array[i];
         }
         resultArray[array.length] = value;
+
         return resultArray;
     }
 
@@ -37,10 +31,7 @@ public class Array4 {
     public static int[] getNonDuplicateArray(int[] array1, int[] array2) { //중복되지않은값
         int[] resultArray = new int[0];
 
-<<<<<<< HEAD
         //첫 번째 배열 비교
-=======
->>>>>>> origin/main
         for (int i = 0; i < array1.length; i++) {
             int duplicateCountInArray1 = 0;
 
@@ -55,10 +46,7 @@ public class Array4 {
             resultArray = add(resultArray, array1[i]);
         }
 
-<<<<<<< HEAD
         //두 번쨰 배열 비교
-=======
->>>>>>> origin/main
         for (int i = 0; i < array2.length; i++) {
             int duplicateCountInArray2 = 0;
 
