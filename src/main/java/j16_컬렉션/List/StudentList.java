@@ -15,9 +15,11 @@ public class StudentList {
         students.add(new Student(20220001, "고동현", 25));
 
         Student student2 = students.get(0);
-        //get 안에 숫자가 바뀔때 마다 순서대로 뽑아서 출력이 됨
+        //get 안에 숫자가 바뀔 때마다 순서대로 뽑아서 출력이 됨
 
         System.out.println(student2);
+
+        System.out.println();
 
         //이름이 문경원인 학생의 나이를 26세로 바꾸세요.
 
@@ -48,7 +50,7 @@ public class StudentList {
 
         for(int i = 0; i < students.size(); i++) {
             int nowIndex = students.size() - 1 - i;
-            //뒤에서부터 앞으로 하나씩이기 옮길 것이기때문에 -1 - i을 함으로써 내림차순
+            //뒤에서부터 앞으로 하나씩 옮길 것이기때문에 -1 - i을 함으로써 내림차순
             int preIndex = nowIndex - 1;
 
             Student s = students.get(nowIndex);

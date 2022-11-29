@@ -18,14 +18,14 @@ public class StringList {
             System.out.println(strArray[i]);
         }
 
-        System.out.println();
-
         //foreach
         System.out.println("<<<<< foreach >>>>>");
         for(String str : strArray) {
 
             System.out.println(str);
         }
+
+        System.out.println();
 
         //list foreach
         ArrayList<String> strList = new ArrayList<String>();

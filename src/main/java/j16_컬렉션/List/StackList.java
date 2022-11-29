@@ -39,10 +39,11 @@ public class StackList {
 //
 //        //번호가 필요하기 때문에 foreach사용 불가 -> 일반 반복 사용
 //        int size = stack.size();
-
+//
 //        for(int i = 0; i < size; i++) {
-//            System.out.println(stack.remove(size - i - 1));
+//            System.out.println(stack.remove(size - i - 1)); //삭제함과 동시에 출력된다.
 //            //반복될수록 size가 줄어드는 것을 방지하기 위해 size를 선언한다.
+//            //그대신 용량도 같이 줄어든다.
 //            //List의 size는 3이기 때문에 마지막 인덱스 번호는 size - 1
 //        }
 
