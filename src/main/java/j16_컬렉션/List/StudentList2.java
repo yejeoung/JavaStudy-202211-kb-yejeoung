@@ -35,10 +35,10 @@ public class StudentList2 {
 //        Object[] nameArray = nameList.toArray();
 //
 //        System.out.println((String)nameArray[0]);
-//        //객체일 경우 메소드를 사용할 때 다운캐스팅을 꼭 해주어야 사용이 가능하다.
-//        //String일 경우 Object안에 포함이 되어있는 것이라 생략이 가능하다.
-//        //배열을 다운캐스팅 시키는 것이 아니라
-//        //그 안에 있는 값을 다운캐스팅을 해주어야 가능하다.
+//        객체일 경우 메소드를 사용할 때 다운캐스팅을 꼭 해주어야 사용이 가능하다.
+//        String일 경우 Object안에 포함이 되어있는 것이라 생략이 가능하다.
+//        배열을 다운캐스팅 시키는 것이 아니라
+//        그 안에 있는 값을 다운캐스팅을 해주어야 가능하다.
 
 
         List<Hobby> hl = Arrays.asList(new Hobby[]{
