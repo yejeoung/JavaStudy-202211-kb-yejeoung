@@ -65,8 +65,8 @@ public class ListMethod {
 		
 		//foreach와 같다.
 		while(ir.hasNext()) { //ir이 있나 없나
-			//isNext 이다 아니다
-			//hasNext 있다 없다
+			//isNext()  이다 아니다
+			//hasNext()  있다 없다
 			System.out.println(ir.next());
 			//next -> 다음 값을 꺼내라
 		}

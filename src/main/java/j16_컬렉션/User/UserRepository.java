@@ -6,7 +6,7 @@ import java.util.Map;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-@AllArgsConstructor
+@AllArgsConstructor //Getter, 생성자 사용
 
 public class UserRepository {
 
@@ -70,6 +70,5 @@ public class UserRepository {
 		int userIndex = userList.indexOf(userMap);
 		userList.remove(userIndex);
 		//해당 유저(주소값)가 위치하고 있는 index
-	}
-	
+	}	
 }
