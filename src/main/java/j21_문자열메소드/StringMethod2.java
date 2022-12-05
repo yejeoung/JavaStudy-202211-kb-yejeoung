@@ -1,4 +1,4 @@
-package j20_함수형인터페이스;
+package j21_문자열메소드;
 
 public class StringMethod2 {
 
