@@ -40,6 +40,8 @@ public class Main3 {
 		forEachTest(n -> {
 			System.out.println(n);
 		}, names);
+		
+		System.out.println("=============");
 
 		Map<String, String> subject = new HashMap<>();
 
