@@ -20,7 +20,7 @@ public class StringMethod3 {
 //		phone2.replaceAll(" ", "").replaceAll("/", "").replaceAll("-", "").replaceAll("[.]", "");
 //		phone3.replaceAll(" ", "").replaceAll("/", "").replaceAll("-", "").replaceAll("[.]", "");
 //		phone4.replaceAll(" ", "").replaceAll("/", "").replaceAll("-", "").replaceAll("[.]", "");
-		//이렇게 하나하나 치는 것보다 하나의 변수 안에 묶어서 써주는 것이 효율적이
+		//이렇게 하나하나 치는 것보다 하나의 변수 안에 묶어서 써주는 것이 효율적이다.
 		
 		//위에서 지정한 문자들을 전부 공백으로 바꾸어라
 		System.out.println(replacePhoneToken.apply(phone1));
