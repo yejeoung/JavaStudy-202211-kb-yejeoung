@@ -17,4 +17,5 @@ public interface Calculator {
 	}
 	//default는 오버라이드용이 아니기 때문에
 	//사용이 가능하다.
+
 }

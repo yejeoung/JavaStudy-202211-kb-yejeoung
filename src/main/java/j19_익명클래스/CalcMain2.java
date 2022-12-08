@@ -10,6 +10,7 @@ public class CalcMain2 {
 			
 			@Override
 			public int calc(int a, int b) {
+				System.out.println("덧셈");
 				return a + b;
 			}
 			
@@ -18,7 +19,9 @@ public class CalcMain2 {
 		};
 		
 		//정의만 존재
-		Calculator c1 = (x, y) -> x + y;
+		Calculator c1 = (int x, int y) -> {
+			return x + y;
+		};
 		//람다는 항상 대입할 수 있는 대상이 있어야 생성이 가능하다.
 		//대입과 동시에 생성이 가능하다.
 		
