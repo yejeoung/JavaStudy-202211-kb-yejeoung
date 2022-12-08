@@ -4,11 +4,13 @@ public class Array4 {
 
     public static int[] add(int[] array, int value) { //add를 사용할때는 매개변수가 무조건 두 개가 필요하므로 int value를 넣은 것이다.
         int[] resultArray = new int[array.length + 1];
+        //새로운 공간을 하나씩 만들어준다.
 
         for (int i = 0; i < array.length; i++) { //기존의 배열과 동일하게 옮긴 뒤 마지막 인덱스에 마지막의 배열의 크기가 들어간다.
             resultArray[i] = array[i];
         }
         resultArray[array.length] = value;
+        //배열 전체를 변수 안에 담는다.
 
         return resultArray;
     }
@@ -20,6 +22,8 @@ public class Array4 {
             for (int j = 0; j < array2.length; j++) {
                 if (array1[i] == array2[j]) {
                     resultArray = add(resultArray, array1[i]); //중복될 경우 resultArray에 값을 넣는다.
+                    //중복되는 값중 최소값을 찾아야하기 때문에
+                    //중복되는 값의 변수를 하나 만들어주었다.
                 }
             }
         }
